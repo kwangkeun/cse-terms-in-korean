@@ -1,0 +1,42 @@
+\documentclass[11pt]{book}
+\usepackage{proof,latexsym,xspace,amsmath,amssymb,graphicx,color,enumerate,imakeidx}
+\usepackage{kotex,setspace,varwidth}
+
+\renewcommand{\contentsname}{차례}
+\renewcommand{\chaptername}{}
+\renewcommand{\figurename}{그림}
+\renewcommand{\appendixname}{}
+\renewcommand{\bibname}{}
+\renewcommand{\indexname}{쉽게 쓰는 전문용어}
+
+\input{macroA}\input{macroB}\input{macroC}
+\definecolor{dark-gray}{gray}{0.5} % 0-1, the higher the lighter
+\definecolor{light-gray}{gray}{0.8} % 0-1, the higher the lighter
+
+% index both an english and its korean terms
+\newcommand{\tindex}[2]{\index{#1!#2}\index{#2!#1}}
+% jargon \jar{english}{korean}
+\newcommand{\jar}[2]{{#2}$_{\textit{\footnotesize #1}}$\tindex{#1}{#2}}
+% jargon inside footnote
+\newcommand{\jarfoot}[2]{{#2}$_{\textit{\scriptsize #1}}$\tindex{#1}{#2}}
+% jargon for glossary chapter, to escape the indexing
+\newcommand{\jarg}[2]{{#2}$_{\textit{\footnotesize #1}}$}
+
+%\makeindex[columnsep=20pt, intoc, noautomatic]
+\makeindex[columns=1]
+
+\title{}
+\author{수집\(\cdot\)제안\(\cdot\)편집\ \ \  이 광근
+}
+\date{}
+
+\begin{document}
+\maketitle
+
+\input{terms.tex}
+
+\setstretch{1.0}
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\printindex
+
+\end{document}
