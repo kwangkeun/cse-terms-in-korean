@@ -5,7 +5,8 @@ full:	$(SRC)
 	pdflatex  root.tex && \
 	makeindex root.idx && \
 	pdflatex  root.tex && \
-	pdflatex  root.tex
+	latex  root.tex && \
+	dvipdf  root.dvi
 
 #-----------------------------------------------------------------
 # Phony
