@@ -1,49 +1,56 @@
-\documentclass[11pt]{book}
+\documentclass[11pt]{article}
 \usepackage{proof,latexsym,xspace,amsmath,amssymb,graphicx,color,enumerate,imakeidx}
 \usepackage{kotex,setspace,varwidth}
 
-\renewcommand{\indexname}{}
+\renewcommand{\abstractname}{}
+\renewcommand{\indexname}{전문용어}
 
 \definecolor{dark-gray}{gray}{0.5} % 0-1, the higher the lighter
 \definecolor{light-gray}{gray}{0.8} % 0-1, the higher the lighter
-% index both an english and its korean terms
 \newcommand{\tindex}[2]{\index{#1!#2}\index{#2!#1}}
-% jargon \jar{english}{korean}
 \newcommand{\jar}[2]{{#2}$_{\textit{\footnotesize #1}}$\tindex{#1}{#2}}
-% jargon inside footnote \jarfoot{english}{korean} 
 \newcommand{\jarfoot}[2]{{#2}$_{\textit{\scriptsize #1}}$\tindex{#1}{#2}}
 
 %\makeindex[columnsep=20pt, intoc, noautomatic]
 \makeindex[columns=1]
 
+\setstretch{1.3}
+
 \title{쉬운 전문용어}
 \author{수집\(\cdot\)제안\(\cdot\)편집\ \ \  이 광근\\
   서울대학교 컴퓨터공학부\\
-  \texttt{http://kwangkeunyi.snu.ac.kr}
+  홈페이지: \texttt{kwangkeunyi.snu.ac.kr}
 }
 \date{}
-
 \begin{document}
 \maketitle
 
-온 전문지식이 모든 사람들에게 널리 퍼져야한다. 그래서 더욱 발전할 힘을 얻는
-선순환을 만들어야 한다. 전세계가 울타리없이 경쟁하는 지금에 우리가
-힘을 내고 선두에 설 토양이된다. 전문지식이 몇몇 학자들에만 머물다간 그 분야를
-이끄는 힘을 만들어내지 못한다. 
+\section*{배경}
+전문지식이 몇몇 학자들에만 머물다간 그 분야를 이끄는 힘은 사그라든다. 
 
-쉬운 전문용어를 만들때의 원칙은 다음과 같다:
-\begin{enumerate}
+반대로 온 전문지식이 보다 많은 사람들에게 널리 퍼진다면 어떨까. 그래서
+더욱 발전할 힘을 얻는 활기찬 선순환이 만들어진다면. 이렇게되면
+전문지식은 모두의 상식이 된다. 그래서 모두의 지력은 그만큼
+강해진다. 그리고 모두는 쉽게 더 깊은 수준의 지력을 만드는데 공헌할 수
+있고 전문가가 궁리해낸 지식은 보다 널리 체크되고 비평받을 수 있다.
+
+그래서 쉬운 전문용어가 아쉽다. 전문개념의 핵심을 쉽게 전달하도록,
+최대한 쉬운 일상어로 쓰는 전문용어. 학술은 학술의 언어를
+--우리로서는 소리로만 읽을 원어나 한문을-- 사용해야만 정확하고
+정밀하고 경제적인걸까. 그렇지 않다. 아무리 정교한 전문지식이라도 쉬운
+일상어로 짧고 정밀하게 전달될 수 있다. 시에서 평범한 언어로 밀도 있게
+전달되는 정밀한 느낌을 겪으며 짐작되는 바.
+
+활발히 만들어지고 실험되는 쉬운 전문용어. 이것이 전세계가 울타리없이
+경쟁하는 소용돌이에서 우리가 선두로 치고나갈 든든한 토양이다.
+
+\section*{원칙}
+쉬운 전문용어를 만들때의 원칙은 다음과 같다.
+\begin{itemize}
 \item 전문용어의 의미를 정확히 이해하도록 한다.
 \item 그 의미가 정확히 전달되는 쉬운말을 찾는다.
 \item 이때, 어깨에 힘을 뺀다. 지레 겁먹게하는 용어(불필요한 한문)을 피하고, 가능하면
   쉬운말을 찾는다. 
-\item 쉬운말은 순수 모국어를 뜻하지 않는다. 널리 퍼진 외래어라도 쉽다면 상관없다. 
-\item 전문용어를 최대한 쉽게 풀어쓴다. 전문개념의 핵심을 쉽게
-  전달하도록, 최대한 쉬운 일상어로 풀어 번역한다. 학술은 학술의 언어를
-  --우리로서는 소리로만 읽을 원어나 한문을-- 사용해야만 정확하고
-  정밀하고 경제적이다는 데 동의하지 않는다. 아무리 정교한 전문지식이라도 쉬운
-  일상어로 짧고 정밀하게 전달될 수 있다고 믿는다. 시에서 평범한 언어로
-  밀도 있게 전달되는 정밀한 느낌을 겪으며 믿게 된 바이기도 하다. 
 \item 전문용어 하나에 한글용어 하나가 일대일 대응일 필요가 없이,
   상황에 따라서 다양하게 풀어쓸 수 있다. 중요한 것은 의미의 명확한
   전개.
@@ -53,8 +60,9 @@
 \item 기존의 권위에 얽매이지 않는다. 기존 용어사전이나 이미 널리퍼진
   용어지만 쉽지않은 전문용어라면, 보다 쉬운 전문용어를 찾고 그렇게
   쓴다. 우리 분야의 전문가인 우리가 주도한다.
-
-\end{enumerate}
+\item 쉬운말은 순수 모국어를 뜻하지 않는다. 널리 퍼진 외래어라도
+  쉽다면 문제되지않는다.
+\end{itemize}
 
 \input{terms.tex}
 
