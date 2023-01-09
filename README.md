@@ -1,3 +1,4 @@
-# korean terms
+# 컴퓨터분야 쉬운 전문용어
 
-Korean version of English jargons in computer science and engineering
+- root.pdf: 취지와 쉬운 번역용어 목록을 한눈에 볼 수 있음.
+- terms.tex: 목록들을 만들어주는 데이터 파일
