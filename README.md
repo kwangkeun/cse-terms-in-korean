@@ -1,3 +1,4 @@
-# korean terms
+# 컴퓨터분야 쉬운 전문용어
 
-Korean version of English jargons in computer science and engineering
+컴퓨터분야의 영문 전문용어를 쉬운 모국어 전문용어로 표현하기. 
+root.pdf: 취지와 쉬운 전문용어 목록이 모여있음.
