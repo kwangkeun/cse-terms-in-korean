@@ -44,3 +44,10 @@
 ### 파일 구성
 - terms.tex: 용어목록을 만드는데 사용되는 데이터 파일
 - root.pdf: 취지와 용어목록 (terms.tex과 root.tex로 부터 LaTeX으로 자동생성됨)
+
+### 참고 
+- [반어법으로 쓴, 쉬운 전문용어를 위한 제안서](http://kwangkeunyi.snu.ac.kr/memo/whyeasyword-dongascience.pdf) ([동아사이언스 컬럼](https://www.dongascience.com/news.php?idx=50932))
+- [영어강의, 성균관, 패러데이](http://kwangkeunyi.snu.ac.kr/memo/whyenglish-snupaper.pdf) ([대학신문 컬럼](http://www.snunews.com/news/articleView.html?idxno=10254))
+- [우리말 논문쓰기의 원칙](http://kwangkeunyi.snu.ac.kr/paper/hpaper.html)
+- [공부의 언어](http://kwangkeunyi.snu.ac.kr/memo/mothertongue.pdf)
+
